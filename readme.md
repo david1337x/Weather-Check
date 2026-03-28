@@ -2,7 +2,7 @@
 
 > Author: Mae Cana
 
-### SITE: [https://maecana.github.io/mc_weather/](https://weather-check-sand-iota.vercel.app/)
+### SITE: https://weather-check-sand-iota.vercel.app/
 
 ---
 
