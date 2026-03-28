@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+        name="description"
+        content="A simple weather app that shows the average, minimum, and maximum temperature, humidity, and pressure, and the type of weather a specific city all around the globe."
+        />
+        <meta
+        name="keywords"
+        content="HTML, CSS, JavaScript, Weather, Web App"
+        />
+        <meta name="author" content="Mae Anave Caña" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Weather</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap" rel="stylesheet">
+        <!-- End of Fonts -->
+        
+        <!-- Custom -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- End of Custom -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="top">
+                    <div id="title">
+                        <p>Daily City Weather</p>
+                    </div>
+                    <div class="search_container">
+                        <p class="date"></p>
+                        <input class="search_input" placeholder="Enter City" value="Manila" type="text" />
+                        <button class="search_btn" type="submit">Search</button>
+                    </div>
+                </div>
+
+                <div class="details hide">
+                    <div class="main_temp">
+                        <h1 class="temp"></h1>
+                        <hr />
+                        <h2 class="desc capitalize"></h2>
+                    </div>
+
+                    <div class="desc_temp">
+                        <div class="align_center">
+                            <h6>Min Temperature: <b><spans class="temp_min"></span></b></h6>
+                            <h6>Max Temperature: <b><span class="temp_max"></span></b></h6>
+                        </div>
+                        <div class="align_center">
+                            <h6>Humidity: <b><spans class="hum"></span></b></h6>
+                            <h6>Pressure: <b><span class="pre"></span></b></h6>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <i>All temperature displayed are in Celcius</i><br/>
+                        <small>2021 &#169; MaeAnaveCa&Ntilde;a</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Custom javascript -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- End of custom javascript -->
+    </body>
+</html>
